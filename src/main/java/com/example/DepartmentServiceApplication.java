@@ -10,6 +10,7 @@ public class DepartmentServiceApplication {
 
 	public static void main(String[] args) {
 		System.out.println("Spring boot main file");
+		//changes for HLS-132
 		SpringApplication.run(DepartmentServiceApplication.class, args);
 	}
 
