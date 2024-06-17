@@ -7,6 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 @EnableDiscoveryClient
 public class DepartmentServiceApplication {
+int i=20;
 
 	public static void main(String[] args) {
 		System.out.println("Spring boot main file");
