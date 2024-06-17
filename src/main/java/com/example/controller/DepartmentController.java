@@ -27,6 +27,7 @@ public class DepartmentController {
     @PostMapping
     public Department add(@RequestBody Department department) {
         LOGGER.info("Department add: {}", department);
+		//add one logic here
         return repository.addDepartment(department);
     }
 
